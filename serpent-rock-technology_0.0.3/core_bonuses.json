@@ -1,0 +1,41 @@
+[
+	{
+		"id": "cb_SRT_high_pressure_frame",
+		"name": "High Pressure Frame",
+		"source": "GMS",
+		"effect": "Your mech gains +5 HP",
+		"description": "The mech's frame is designed to withstand the incredible pressures of the deep ocean environment. NOTE: Core bonus is NOT a GMS system. It is a Serpent Rock Technology core bonus. Comp/Con hard codes the rule of 3 license levels per bonus for non-GMS manufacturers, so the only way to make a core bonus that can be taken freely is by making it GMS.",
+		"bonuses": [
+			{
+				"id":"hp",
+				"val":5
+			}
+		]
+	},
+	{
+		"id": "cb_SRT_hyper_polymer_shell",
+		"name": "Hyper Polymer Shell",
+		"source": "GMS",
+		"effect": "Your mech gains +1 armor (up to max +4)",
+		"description": "The bulbous shell is highly resistant to penetration. NOTE: Core bonus is NOT a GMS system. It is a Serpent Rock Technology core bonus. Comp/Con hard codes the rule of 3 license levels per bonus for non-GMS manufacturers, so the only way to make a core bonus that can be taken freely is by making it GMS.",
+		"bonuses":[
+			{
+				"id":"armor",
+				"val":1
+			}
+		]
+	},
+	{
+		"id": "cb_SRT_expansible_architecture",
+		"name": "Expansible Architecture",
+		"source": "GMS",
+		"effect": "The KĒTŎS base frame size becomes 3 instead of 2. You can’t be knocked Prone, pulled, or knocked back by smaller characters, regardless of what system or weapon causes the effect.",
+		"description": "By manipulating the internal struts and framework of the KĒTŎS artifact, it's size is greatly increased. NOTE: Core bonus is NOT a GMS system. It is a Serpent Rock Technology core bonus. Comp/Con hard codes the rule of 3 license levels per bonus for non-GMS manufacturers, so the only way to make a core bonus that can be taken freely is by making it GMS.",
+		"bonuses":[
+			{
+				"id":"size",
+				"val":1
+			}
+		]
+	}
+]
