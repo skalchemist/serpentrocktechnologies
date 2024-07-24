@@ -1,0 +1,40 @@
+[
+	{
+		"id": "wm_srt_cluster_anti_personnel_round",
+		"name": "Cluster Anti-Personnel Rounds",
+		"source": "SRT",
+		"license": "KĒTŎS",
+		"license_level": 1,
+		"effect": "Choose a cannon or launcher. This weapon does an extra 1d8 damage, but armor is twice as effective against all damage it deals.",
+		"sp": 1,
+		"description": "KĒTŎS is capable of using munitions that release small clouds of sub-munitions that are highly effective against unarmored targets.",
+		"allowed_types": [
+			"Cannon",
+			"Launcher"
+		],
+		"added_damage": [
+			{
+				"type": "Explosive",
+				"val": "1d8"
+			}
+		]
+	},
+	{
+		"id": "wm_srt_nhp_fire_control",
+		"name": "NHP Fire Control",
+		"source": "SRT",
+		"license": "KĒTŎS",
+		"license_level": 2,
+		"effect": "Choose one weapon. It gains Smart and Seeking.",
+		"sp": 2,
+		"description": "By allowing the NHP more control, it can much more effectively achieve effective targeting solutions.",
+		"added_tags": [
+			{
+				"id":"tg_seeking"
+			},
+			{
+				"id":"tg_smart"
+			}
+		]
+	}
+]
